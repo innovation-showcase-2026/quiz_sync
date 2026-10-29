@@ -1,0 +1,47 @@
+[
+  {
+    "name": "sabbu",
+    "registeredAt": "2026-10-29T12:38:41.102Z",
+    "totalTestsAppeared": 3,
+    "totalScore": 5,
+    "totalQuestions": 15,
+    "overallAccuracy": 33,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-29T12:56:52.504Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data Governance, Lineage & Zero Trust",
+        "topicTitle": "Data Governance, Lineage & Zero Trust",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 8,
+        "completedAt": "2026-10-29T12:38:49.915Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 5,
+        "completedAt": "2026-10-29T12:56:52.504Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Intelligent Enterprise Platforms & SRE Operations",
+        "topicTitle": "Intelligent Enterprise Platforms & SRE Operations",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 10,
+        "completedAt": "2026-10-29T12:55:46.202Z"
+      }
+    ]
+  }
+]
