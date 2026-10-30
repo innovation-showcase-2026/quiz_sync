@@ -104,7 +104,9 @@ function App() {
         if (result.status === "committed") {
           setCommitStatus({
             type: "success",
-            message: `Committed to GitHub!`,
+            message: result.deployTriggered
+              ? `Committed (${result.commitSha}) & triggered Deploy Action!`
+              : `Committed to GitHub!`,
             commitSha: result.commitSha,
             commitUrl: result.commitUrl,
             time: new Date().toLocaleTimeString(),

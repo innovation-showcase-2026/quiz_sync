@@ -124,10 +124,9 @@ export async function commitLeaderboardToGitHub({
     };
   }
 
-  // 2. Commit file via GitHub Contents API
   const message =
     customMessage ||
-    `chore: sync leaderboard data (${participants.length} participants) [skip ci]`;
+    `chore: sync leaderboard data (${participants.length} participants)`;
 
   const putUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${LEADERBOARD_FILE_PATH}`;
   const putBody = {
@@ -173,12 +172,67 @@ export async function commitLeaderboardToGitHub({
 
   const result = await response.json();
 
+  // Trigger deployment action automatically
+  const deployResult = await triggerDeployWorkflow({
+    token: activeToken,
+    owner,
+    repo,
+    branch,
+  });
+
   return {
     status: "committed",
-    message: "Successfully committed leaderboard.json to GitHub!",
+    message: deployResult.success
+      ? "Committed to GitHub & triggered deployment workflow!"
+      : "Committed to GitHub successfully!",
     commitSha: result.commit?.sha?.slice(0, 7) || "unknown",
     fullCommitSha: result.commit?.sha,
     commitUrl: result.commit?.html_url,
+    deployTriggered: deployResult.success,
+    deployMessage: deployResult.success
+      ? "Deployment workflow dispatched."
+      : deployResult.reason,
     timestamp: new Date().toISOString(),
   };
 }
+
+export async function triggerDeployWorkflow({
+  token,
+  owner = DEFAULT_REPO_OWNER,
+  repo = DEFAULT_REPO_NAME,
+  branch = DEFAULT_BRANCH,
+  workflowId = "deploy.yml",
+} = {}) {
+  const activeToken = (token || getStoredGitHubToken() || "").trim();
+  if (!activeToken) {
+    return { success: false, reason: "No GitHub token provided" };
+  }
+
+  const url = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`;
+
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${activeToken}`,
+        "Content-Type": "application/json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify({ ref: branch }),
+    });
+
+    if (response.status === 204) {
+      return { success: true };
+    }
+
+    const err = await response.json().catch(() => ({}));
+    return {
+      success: false,
+      reason: err.message || `HTTP ${response.status}`,
+    };
+  } catch (error) {
+    return { success: false, reason: error.message };
+  }
+}
+

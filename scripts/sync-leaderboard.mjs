@@ -170,6 +170,26 @@ async function commitToGitHub(output) {
 
   const result = await putRes.json();
   console.log(`Successfully committed leaderboard.json to GitHub! Commit SHA: ${result.commit?.sha?.slice(0, 7)}`);
+
+  // Trigger deploy workflow
+  try {
+    const dispatchUrl = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/deploy.yml/dispatches`;
+    const dispatchRes = await fetch(dispatchUrl, {
+      method: "POST",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify({ ref: branch }),
+    });
+    if (dispatchRes.status === 204) {
+      console.log("Successfully triggered deployment workflow (deploy.yml).");
+    }
+  } catch (dispErr) {
+    console.warn("Could not trigger deployment workflow:", dispErr.message);
+  }
 }
 
 async function main() {
