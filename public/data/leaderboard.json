@@ -2,13 +2,25 @@
   {
     "name": "Padma Naresh",
     "registeredAt": "2026-10-30T05:50:17.343Z",
-    "totalTestsAppeared": 0,
-    "totalScore": 0,
-    "totalQuestions": 0,
-    "overallAccuracy": 0,
+    "totalTestsAppeared": 1,
+    "totalScore": 2,
+    "totalQuestions": 5,
+    "overallAccuracy": 40,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T05:50:17.343Z",
-    "tests": []
+    "lastUpdated": "2026-10-30T05:50:40.197Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 22,
+        "completedAt": "2026-10-30T05:50:40.197Z"
+      }
+    ]
   },
   {
     "name": "Sabbu",
