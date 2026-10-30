@@ -66,5 +66,16 @@
         "completedAt": "2026-10-30T05:52:10.875Z"
       }
     ]
+  },
+  {
+    "name": "Chandra Javalkar",
+    "registeredAt": "2026-10-30T06:07:50.777Z",
+    "totalTestsAppeared": 0,
+    "totalScore": 0,
+    "totalQuestions": 0,
+    "overallAccuracy": 0,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T06:07:50.777Z",
+    "tests": []
   }
 ]
