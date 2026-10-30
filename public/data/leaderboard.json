@@ -1,35 +1,35 @@
 [
   {
-    "name": "Sabbu",
-    "registeredAt": "2026-10-30T11:35:24.088Z",
+    "name": "Padma Naresh",
+    "registeredAt": "2026-10-30T05:50:17.343Z",
     "totalTestsAppeared": 3,
     "totalScore": 4,
     "totalQuestions": 15,
     "overallAccuracy": 27,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T12:11:19.173Z",
+    "lastUpdated": "2026-10-30T06:15:04.866Z",
     "tests": [
       {
-        "boothId": "booth-1",
-        "boothNumber": 1,
-        "boothTitle": "Data Governance, Lineage & Zero Trust",
-        "topicTitle": "Data Governance, Lineage & Zero Trust",
-        "score": 1,
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 2,
         "totalQuestions": 5,
-        "percentage": 20,
-        "timeTakenSeconds": 10,
-        "completedAt": "2026-10-30T11:35:35.549Z"
+        "percentage": 40,
+        "timeTakenSeconds": 22,
+        "completedAt": "2026-10-30T05:50:40.197Z"
       },
       {
-        "boothId": "booth-6",
-        "boothNumber": 6,
-        "boothTitle": "AI Business Intelligence & Process Automation",
-        "topicTitle": "AI Business Intelligence & Process Automation",
-        "score": 1,
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 0,
         "totalQuestions": 5,
-        "percentage": 20,
-        "timeTakenSeconds": 8,
-        "completedAt": "2026-10-30T12:04:23.092Z"
+        "percentage": 0,
+        "timeTakenSeconds": 7,
+        "completedAt": "2026-10-30T05:52:10.875Z"
       },
       {
         "boothId": "booth-9",
@@ -40,7 +40,64 @@
         "totalQuestions": 5,
         "percentage": 40,
         "timeTakenSeconds": 8,
-        "completedAt": "2026-10-30T12:11:19.173Z"
+        "completedAt": "2026-10-30T06:15:04.866Z"
+      }
+    ]
+  },
+  {
+    "name": "Sabbu",
+    "registeredAt": "2026-10-30T05:48:41.562Z",
+    "totalTestsAppeared": 2,
+    "totalScore": 3,
+    "totalQuestions": 10,
+    "overallAccuracy": 30,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T05:54:59.630Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 11,
+        "completedAt": "2026-10-30T05:48:52.957Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 8,
+        "completedAt": "2026-10-30T05:54:59.630Z"
+      }
+    ]
+  },
+  {
+    "name": "Chandra Javalkar",
+    "registeredAt": "2026-10-30T06:07:50.777Z",
+    "totalTestsAppeared": 1,
+    "totalScore": 0,
+    "totalQuestions": 5,
+    "overallAccuracy": 0,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T06:07:58.301Z",
+    "tests": [
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 7,
+        "completedAt": "2026-10-30T06:07:58.301Z"
       }
     ]
   }
