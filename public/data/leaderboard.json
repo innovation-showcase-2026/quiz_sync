@@ -1,5 +1,39 @@
 [
   {
+    "name": "Sabbu",
+    "registeredAt": "2026-10-30T05:48:41.562Z",
+    "totalTestsAppeared": 2,
+    "totalScore": 3,
+    "totalQuestions": 10,
+    "overallAccuracy": 30,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T05:54:59.630Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 11,
+        "completedAt": "2026-10-30T05:48:52.957Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 8,
+        "completedAt": "2026-10-30T05:54:59.630Z"
+      }
+    ]
+  },
+  {
     "name": "Padma Naresh",
     "registeredAt": "2026-10-30T05:50:17.343Z",
     "totalTestsAppeared": 2,
@@ -30,29 +64,6 @@
         "percentage": 0,
         "timeTakenSeconds": 7,
         "completedAt": "2026-10-30T05:52:10.875Z"
-      }
-    ]
-  },
-  {
-    "name": "Sabbu",
-    "registeredAt": "2026-10-30T05:48:41.562Z",
-    "totalTestsAppeared": 1,
-    "totalScore": 0,
-    "totalQuestions": 5,
-    "overallAccuracy": 0,
-    "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T05:48:52.957Z",
-    "tests": [
-      {
-        "boothId": "booth-2",
-        "boothNumber": 2,
-        "boothTitle": "Autonomous Agents & Digital Identity",
-        "topicTitle": "Autonomous Agents & Digital Identity",
-        "score": 0,
-        "totalQuestions": 5,
-        "percentage": 0,
-        "timeTakenSeconds": 11,
-        "completedAt": "2026-10-30T05:48:52.957Z"
       }
     ]
   }
