@@ -2,12 +2,12 @@
   {
     "name": "Sabbu",
     "registeredAt": "2026-10-30T11:35:24.088Z",
-    "totalTestsAppeared": 1,
-    "totalScore": 1,
-    "totalQuestions": 5,
+    "totalTestsAppeared": 2,
+    "totalScore": 2,
+    "totalQuestions": 10,
     "overallAccuracy": 20,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T11:35:35.549Z",
+    "lastUpdated": "2026-10-30T12:04:23.092Z",
     "tests": [
       {
         "boothId": "booth-1",
@@ -19,6 +19,17 @@
         "percentage": 20,
         "timeTakenSeconds": 10,
         "completedAt": "2026-10-30T11:35:35.549Z"
+      },
+      {
+        "boothId": "booth-6",
+        "boothNumber": 6,
+        "boothTitle": "AI Business Intelligence & Process Automation",
+        "topicTitle": "AI Business Intelligence & Process Automation",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 8,
+        "completedAt": "2026-10-30T12:04:23.092Z"
       }
     ]
   }
