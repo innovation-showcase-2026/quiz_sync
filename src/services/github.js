@@ -64,8 +64,10 @@ export async function fetchCurrentLeaderboardSha(
   repo = DEFAULT_REPO_NAME,
   branch = DEFAULT_BRANCH,
 ) {
-  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${LEADERBOARD_FILE_PATH}?ref=${branch}`;
+  // Use timestamp query param and cache: 'no-store' to prevent browser HTTP caching
+  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${LEADERBOARD_FILE_PATH}?ref=${branch}&_t=${Date.now()}`;
   const response = await fetch(url, {
+    cache: "no-store",
     headers: {
       Accept: "application/vnd.github+json",
       Authorization: `Bearer ${token}`,
@@ -112,8 +114,37 @@ export async function commitLeaderboardToGitHub({
 
   const jsonString = `${JSON.stringify(participants, null, 2)}\n`;
 
-  // 1. Fetch current file to get sha and verify if content is already identical
-  const current = await fetchCurrentLeaderboardSha(activeToken, owner, repo, branch);
+  // Helper to attempt commit with a given SHA
+  const executeCommit = async (shaToUse) => {
+    const message =
+      customMessage ||
+      `chore: sync leaderboard data (${participants.length} participants)`;
+
+    const putUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${LEADERBOARD_FILE_PATH}`;
+    const putBody = {
+      message,
+      content: utf8ToBase64(jsonString),
+      branch,
+    };
+
+    if (shaToUse) {
+      putBody.sha = shaToUse;
+    }
+
+    return fetch(putUrl, {
+      method: "PUT",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${activeToken}`,
+        "Content-Type": "application/json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify(putBody),
+    });
+  };
+
+  // 1. Fetch current file to get latest sha
+  let current = await fetchCurrentLeaderboardSha(activeToken, owner, repo, branch);
 
   if (current.sha && current.content === jsonString) {
     return {
@@ -124,31 +155,22 @@ export async function commitLeaderboardToGitHub({
     };
   }
 
-  const message =
-    customMessage ||
-    `chore: sync leaderboard data (${participants.length} participants)`;
+  let response = await executeCommit(current.sha);
 
-  const putUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${LEADERBOARD_FILE_PATH}`;
-  const putBody = {
-    message,
-    content: utf8ToBase64(jsonString),
-    branch,
-  };
-
-  if (current.sha) {
-    putBody.sha = current.sha;
+  // If a 409 conflict occurs (cached/mismatched SHA), re-fetch latest SHA and retry once
+  if (response.status === 409) {
+    console.warn("SHA mismatch detected (409). Fetching freshest SHA from GitHub and retrying...");
+    current = await fetchCurrentLeaderboardSha(activeToken, owner, repo, branch);
+    if (current.content === jsonString) {
+      return {
+        status: "unchanged",
+        message: "Leaderboard in GitHub is already up to date.",
+        sha: current.sha,
+        commitUrl: null,
+      };
+    }
+    response = await executeCommit(current.sha);
   }
-
-  const response = await fetch(putUrl, {
-    method: "PUT",
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${activeToken}`,
-      "Content-Type": "application/json",
-      "X-GitHub-Api-Version": "2022-11-28",
-    },
-    body: JSON.stringify(putBody),
-  });
 
   if (!response.ok) {
     const errorBody = await response.json().catch(() => ({}));
