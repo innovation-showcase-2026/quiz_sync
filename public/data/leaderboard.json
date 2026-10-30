@@ -70,12 +70,24 @@
   {
     "name": "Chandra Javalkar",
     "registeredAt": "2026-10-30T06:07:50.777Z",
-    "totalTestsAppeared": 0,
+    "totalTestsAppeared": 1,
     "totalScore": 0,
-    "totalQuestions": 0,
+    "totalQuestions": 5,
     "overallAccuracy": 0,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T06:07:50.777Z",
-    "tests": []
+    "lastUpdated": "2026-10-30T06:07:58.301Z",
+    "tests": [
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 7,
+        "completedAt": "2026-10-30T06:07:58.301Z"
+      }
+    ]
   }
 ]
