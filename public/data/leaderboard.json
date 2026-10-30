@@ -47,12 +47,12 @@
   {
     "name": "Chandra Javalkar",
     "registeredAt": "2026-10-30T03:42:23.045Z",
-    "totalTestsAppeared": 1,
-    "totalScore": 2,
-    "totalQuestions": 5,
+    "totalTestsAppeared": 2,
+    "totalScore": 4,
+    "totalQuestions": 10,
     "overallAccuracy": 40,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T03:42:34.961Z",
+    "lastUpdated": "2026-10-30T03:45:09.843Z",
     "tests": [
       {
         "boothId": "booth-1",
@@ -64,6 +64,17 @@
         "percentage": 40,
         "timeTakenSeconds": 11,
         "completedAt": "2026-10-30T03:42:34.961Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 12,
+        "completedAt": "2026-10-30T03:45:09.843Z"
       }
     ]
   }
