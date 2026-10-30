@@ -43,5 +43,28 @@
         "completedAt": "2026-10-29T12:55:46.202Z"
       }
     ]
+  },
+  {
+    "name": "Chandra Javalkar",
+    "registeredAt": "2026-10-30T03:42:23.045Z",
+    "totalTestsAppeared": 1,
+    "totalScore": 2,
+    "totalQuestions": 5,
+    "overallAccuracy": 40,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T03:42:34.961Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data Governance, Lineage & Zero Trust",
+        "topicTitle": "Data Governance, Lineage & Zero Trust",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 11,
+        "completedAt": "2026-10-30T03:42:34.961Z"
+      }
+    ]
   }
 ]
