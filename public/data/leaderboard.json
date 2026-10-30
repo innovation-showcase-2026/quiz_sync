@@ -2,12 +2,12 @@
   {
     "name": "Padma Naresh",
     "registeredAt": "2026-10-30T05:50:17.343Z",
-    "totalTestsAppeared": 1,
+    "totalTestsAppeared": 2,
     "totalScore": 2,
-    "totalQuestions": 5,
-    "overallAccuracy": 40,
+    "totalQuestions": 10,
+    "overallAccuracy": 20,
     "isPrizeEligible": false,
-    "lastUpdated": "2026-10-30T05:50:40.197Z",
+    "lastUpdated": "2026-10-30T05:52:10.875Z",
     "tests": [
       {
         "boothId": "booth-2",
@@ -19,6 +19,17 @@
         "percentage": 40,
         "timeTakenSeconds": 22,
         "completedAt": "2026-10-30T05:50:40.197Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Cloud Modernization & Data Platforms",
+        "topicTitle": "Cloud Modernization & Data Platforms",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 7,
+        "completedAt": "2026-10-30T05:52:10.875Z"
       }
     ]
   },
