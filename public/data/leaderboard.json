@@ -1,5 +1,16 @@
 [
   {
+    "name": "Padma Naresh",
+    "registeredAt": "2026-10-30T05:50:17.343Z",
+    "totalTestsAppeared": 0,
+    "totalScore": 0,
+    "totalQuestions": 0,
+    "overallAccuracy": 0,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-10-30T05:50:17.343Z",
+    "tests": []
+  },
+  {
     "name": "Sabbu",
     "registeredAt": "2026-10-30T05:48:41.562Z",
     "totalTestsAppeared": 1,
