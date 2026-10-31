@@ -2,12 +2,12 @@
   {
     "name": "sabbu",
     "registeredAt": "2026-10-31T09:45:05.305Z",
-    "totalTestsAppeared": 1,
-    "totalScore": 4,
-    "totalQuestions": 5,
-    "overallAccuracy": 80,
-    "isPrizeEligible": false,
-    "lastUpdated": "2026-10-31T09:47:02.406Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 11,
+    "totalQuestions": 20,
+    "overallAccuracy": 55,
+    "isPrizeEligible": true,
+    "lastUpdated": "2026-10-31T21:30:50.940Z",
     "tests": [
       {
         "boothId": "booth-1",
@@ -19,6 +19,39 @@
         "percentage": 80,
         "timeTakenSeconds": 46,
         "completedAt": "2026-10-31T09:47:02.406Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Autonomous Agents & Digital Identity",
+        "topicTitle": "Autonomous Agents & Digital Identity",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 18,
+        "completedAt": "2026-10-31T21:26:36.311Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "AI-Powered Software Engineering & Developer Productivity",
+        "topicTitle": "AI-Powered Software Engineering & Developer Productivity",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 16,
+        "completedAt": "2026-10-31T21:30:50.940Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Intelligent Enterprise Platforms & SRE Operations",
+        "topicTitle": "Intelligent Enterprise Platforms & SRE Operations",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 19,
+        "completedAt": "2026-10-31T21:24:58.084Z"
       }
     ]
   },
