@@ -56,6 +56,40 @@
     ]
   },
   {
+    "name": "sabbu",
+    "registeredAt": "2026-10-31T09:51:14.491Z",
+    "totalTestsAppeared": 2,
+    "totalScore": 3,
+    "totalQuestions": 10,
+    "overallAccuracy": 30,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-11-01T18:14:36.670Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data Governance, Lineage & Zero Trust",
+        "topicTitle": "Data Governance, Lineage & Zero Trust",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 44,
+        "completedAt": "2026-10-31T09:53:04.527Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 12,
+        "completedAt": "2026-11-01T18:14:36.670Z"
+      }
+    ]
+  },
+  {
     "name": "sabbu123",
     "registeredAt": "2026-11-01T18:08:28.679Z",
     "totalTestsAppeared": 1,
@@ -98,29 +132,6 @@
         "percentage": 40,
         "timeTakenSeconds": 15,
         "completedAt": "2026-11-01T07:12:29.761Z"
-      }
-    ]
-  },
-  {
-    "name": "sabbu",
-    "registeredAt": "2026-10-31T09:51:14.491Z",
-    "totalTestsAppeared": 1,
-    "totalScore": 2,
-    "totalQuestions": 5,
-    "overallAccuracy": 40,
-    "isPrizeEligible": false,
-    "lastUpdated": "2026-10-31T09:53:04.527Z",
-    "tests": [
-      {
-        "boothId": "booth-1",
-        "boothNumber": 1,
-        "boothTitle": "Data Governance, Lineage & Zero Trust",
-        "topicTitle": "Data Governance, Lineage & Zero Trust",
-        "score": 2,
-        "totalQuestions": 5,
-        "percentage": 40,
-        "timeTakenSeconds": 44,
-        "completedAt": "2026-10-31T09:53:04.527Z"
       }
     ]
   },
