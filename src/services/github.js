@@ -1,5 +1,5 @@
 export const DEFAULT_REPO_OWNER =
-  import.meta.env.VITE_GITHUB_REPO_OWNER || "innovationshowcase26";
+  import.meta.env.VITE_GITHUB_REPO_OWNER || "innovation-showcase-2026";
 export const DEFAULT_REPO_NAME =
   import.meta.env.VITE_GITHUB_REPO_NAME || "quiz_sync";
 export const DEFAULT_BRANCH = import.meta.env.VITE_GITHUB_BRANCH || "main";
@@ -81,7 +81,7 @@ export async function fetchFileSha(
     const errorBody = await response.json().catch(() => ({}));
     throw new Error(
       errorBody.message ||
-        `GitHub API returned status ${response.status} while fetching ${filePath}.`,
+      `GitHub API returned status ${response.status} while fetching ${filePath}.`,
     );
   }
 
@@ -194,12 +194,12 @@ export async function commitJsonFileToGitHub({
     if (response.status === 404 || response.status === 403) {
       throw new Error(
         errorBody.message ||
-          `GitHub permissions error: Ensure the token has 'Contents: Read and Write' permission for ${owner}/${repo}.`,
+        `GitHub permissions error: Ensure the token has 'Contents: Read and Write' permission for ${owner}/${repo}.`,
       );
     }
     throw new Error(
       errorBody.message ||
-        `Failed to commit to GitHub (HTTP ${response.status}).`,
+      `Failed to commit to GitHub (HTTP ${response.status}).`,
     );
   }
 
