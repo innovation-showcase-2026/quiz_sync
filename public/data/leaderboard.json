@@ -56,6 +56,29 @@
     ]
   },
   {
+    "name": "sabbu123",
+    "registeredAt": "2026-11-01T18:08:28.679Z",
+    "totalTestsAppeared": 1,
+    "totalScore": 2,
+    "totalQuestions": 5,
+    "overallAccuracy": 40,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-11-01T18:09:29.234Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 12,
+        "completedAt": "2026-11-01T18:09:29.234Z"
+      }
+    ]
+  },
+  {
     "name": "R.Kabali",
     "registeredAt": "2026-11-01T07:11:37.539Z",
     "totalTestsAppeared": 1,
@@ -100,5 +123,16 @@
         "completedAt": "2026-10-31T09:53:04.527Z"
       }
     ]
+  },
+  {
+    "name": "Siddharth Yadavilli",
+    "registeredAt": "2026-11-01T18:01:18.690Z",
+    "totalTestsAppeared": 0,
+    "totalScore": 0,
+    "totalQuestions": 0,
+    "overallAccuracy": 0,
+    "isPrizeEligible": false,
+    "lastUpdated": "2026-11-01T18:01:18.690Z",
+    "tests": []
   }
 ]
