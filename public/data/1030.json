@@ -12,14 +12,14 @@
     "overallAccuracy": 35,
     "isPrizeEligible": true,
     "summary": {
-      "isTargetReached": true,
       "isPrizeEligible": true,
-      "accuracy": 35,
       "totalQuestions": 20,
+      "completionTime": "10:07",
+      "accuracy": 35,
+      "isTargetReached": true,
       "totalTimeSeconds": 58,
-      "boothsCompleted": 4,
       "totalScore": 7,
-      "completionTime": "10:07"
+      "boothsCompleted": 4
     },
     "lastUpdated": "2026-11-02T04:37:55.178Z",
     "tests": [
