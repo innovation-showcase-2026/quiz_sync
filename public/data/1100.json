@@ -12,14 +12,14 @@
     "overallAccuracy": 75,
     "isPrizeEligible": true,
     "summary": {
-      "totalTimeSeconds": 260,
-      "isPrizeEligible": true,
       "totalScore": 15,
-      "accuracy": 75,
+      "totalQuestions": 20,
+      "boothsCompleted": 4,
+      "isPrizeEligible": true,
       "completionTime": "10:44",
       "isTargetReached": true,
-      "totalQuestions": 20,
-      "boothsCompleted": 4
+      "totalTimeSeconds": 260,
+      "accuracy": 75
     },
     "lastUpdated": "2026-11-02T05:14:55.561Z",
     "tests": [
@@ -82,14 +82,14 @@
     "overallAccuracy": 65,
     "isPrizeEligible": true,
     "summary": {
-      "isPrizeEligible": true,
-      "totalTimeSeconds": 175,
-      "accuracy": 65,
-      "totalQuestions": 20,
       "completionTime": "10:55",
-      "totalScore": 13,
       "isTargetReached": true,
-      "boothsCompleted": 4
+      "isPrizeEligible": true,
+      "boothsCompleted": 4,
+      "totalQuestions": 20,
+      "accuracy": 65,
+      "totalTimeSeconds": 175,
+      "totalScore": 13
     },
     "lastUpdated": "2026-11-02T05:25:12.596Z",
     "tests": [
@@ -152,14 +152,14 @@
     "overallAccuracy": 60,
     "isPrizeEligible": true,
     "summary": {
-      "accuracy": 60,
-      "isPrizeEligible": true,
       "totalQuestions": 20,
       "completionTime": "10:47",
-      "isTargetReached": true,
       "totalTimeSeconds": 281,
+      "boothsCompleted": 4,
+      "isPrizeEligible": true,
+      "accuracy": 60,
       "totalScore": 12,
-      "boothsCompleted": 4
+      "isTargetReached": true
     },
     "lastUpdated": "2026-11-02T05:17:35.934Z",
     "tests": [
@@ -223,13 +223,13 @@
     "isPrizeEligible": true,
     "summary": {
       "totalTimeSeconds": 356,
-      "isPrizeEligible": true,
-      "boothsCompleted": 4,
-      "completionTime": "10:56",
-      "totalQuestions": 20,
+      "totalScore": 11,
       "accuracy": 55,
+      "completionTime": "10:56",
       "isTargetReached": true,
-      "totalScore": 11
+      "isPrizeEligible": true,
+      "totalQuestions": 20,
+      "boothsCompleted": 4
     },
     "lastUpdated": "2026-11-02T05:26:38.967Z",
     "tests": [
@@ -294,11 +294,11 @@
     "summary": {
       "totalTimeSeconds": 212,
       "completionTime": "10:41",
-      "accuracy": 50,
       "totalScore": 10,
-      "totalQuestions": 20,
       "isTargetReached": true,
+      "accuracy": 50,
       "boothsCompleted": 4,
+      "totalQuestions": 20,
       "isPrizeEligible": true
     },
     "lastUpdated": "2026-11-02T05:11:54.418Z",
