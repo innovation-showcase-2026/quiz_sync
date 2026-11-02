@@ -1,0 +1,72 @@
+[
+  {
+    "id": "7093722567",
+    "name": "Padma Naresh",
+    "email": "7093722567",
+    "registeredAt": "2026-11-02T04:33:53.078Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 7,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 58,
+    "completionTime": "10:07",
+    "overallAccuracy": 35,
+    "isPrizeEligible": true,
+    "summary": {
+      "accuracy": 35,
+      "totalQuestions": 20,
+      "totalTimeSeconds": 58,
+      "completionTime": "10:07",
+      "isPrizeEligible": true,
+      "totalScore": 7,
+      "isTargetReached": true,
+      "boothsCompleted": 4
+    },
+    "lastUpdated": "2026-11-02T04:37:55.178Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 22,
+        "completedAt": "2026-11-02T04:34:41.558Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 12,
+        "completedAt": "2026-11-02T04:35:45.519Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 8,
+        "completedAt": "2026-11-02T04:36:22.970Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 16,
+        "completedAt": "2026-11-02T04:37:55.178Z"
+      }
+    ]
+  }
+]
