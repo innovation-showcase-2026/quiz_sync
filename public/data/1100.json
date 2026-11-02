@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "9949155221",
+    "name": "Padmavathi Ranganatham",
+    "email": "9949155221",
+    "registeredAt": "2026-11-02T04:57:52.884Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 10,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 212,
+    "completionTime": "10:41",
+    "overallAccuracy": 50,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalTimeSeconds": 212,
+      "completionTime": "10:41",
+      "totalScore": 10,
+      "isTargetReached": true,
+      "accuracy": 50,
+      "boothsCompleted": 4,
+      "totalQuestions": 20,
+      "isPrizeEligible": true
+    },
+    "lastUpdated": "2026-11-02T05:11:54.418Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 53,
+        "completedAt": "2026-11-02T05:02:50.795Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 32,
+        "completedAt": "2026-11-02T04:59:49.673Z"
+      },
+      {
+        "boothId": "booth-7",
+        "boothNumber": 7,
+        "boothTitle": "Business Enablers - Booth 2",
+        "topicTitle": "Business Enablers - Booth 2",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 37,
+        "completedAt": "2026-11-02T05:06:43.157Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:11:54.418Z"
+      }
+    ]
+  }
+]
