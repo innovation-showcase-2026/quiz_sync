@@ -350,6 +350,76 @@
     ]
   },
   {
+    "id": "7702879495",
+    "name": "Harikrishna Sri Ramoji",
+    "email": "7702879495",
+    "registeredAt": "2026-11-02T05:51:24.039Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 14,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 185,
+    "completionTime": "11:30",
+    "overallAccuracy": 70,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalQuestions": 20,
+      "isTargetReached": true,
+      "isPrizeEligible": true,
+      "boothsCompleted": 4,
+      "totalTimeSeconds": 185,
+      "totalScore": 14,
+      "completionTime": "11:30",
+      "accuracy": 70
+    },
+    "lastUpdated": "2026-11-02T06:00:42.025Z",
+    "tests": [
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 81,
+        "completedAt": "2026-11-02T05:53:23.319Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Modernization And Transformation",
+        "topicTitle": "Modernization And Transformation",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 23,
+        "completedAt": "2026-11-02T06:00:42.025Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 52,
+        "completedAt": "2026-11-02T05:57:52.641Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 29,
+        "completedAt": "2026-11-02T05:59:24.120Z"
+      }
+    ]
+  },
+  {
     "id": "9000530962",
     "name": "ANIL MANOHAR MOHAPATRA",
     "email": "9000530962",
@@ -626,76 +696,6 @@
         "percentage": 80,
         "timeTakenSeconds": 18,
         "completedAt": "2026-11-02T05:36:40.402Z"
-      }
-    ]
-  },
-  {
-    "id": "7506195511",
-    "name": "Aritra Sinha",
-    "email": "7506195511",
-    "registeredAt": "2026-11-02T05:38:09.052Z",
-    "totalTestsAppeared": 4,
-    "totalScore": 13,
-    "totalQuestions": 20,
-    "totalTimeSeconds": 184,
-    "completionTime": "11:29",
-    "overallAccuracy": 65,
-    "isPrizeEligible": true,
-    "summary": {
-      "totalScore": 13,
-      "totalQuestions": 20,
-      "completionTime": "11:29",
-      "accuracy": 65,
-      "boothsCompleted": 4,
-      "isTargetReached": true,
-      "isPrizeEligible": true,
-      "totalTimeSeconds": 184
-    },
-    "lastUpdated": "2026-11-02T05:59:05.510Z",
-    "tests": [
-      {
-        "boothId": "booth-4",
-        "boothNumber": 4,
-        "boothTitle": "Modernization And Transformation",
-        "topicTitle": "Modernization And Transformation",
-        "score": 4,
-        "totalQuestions": 5,
-        "percentage": 80,
-        "timeTakenSeconds": 29,
-        "completedAt": "2026-11-02T05:57:32.389Z"
-      },
-      {
-        "boothId": "booth-5",
-        "boothNumber": 5,
-        "boothTitle": "AI Enablements",
-        "topicTitle": "AI Enablements",
-        "score": 4,
-        "totalQuestions": 5,
-        "percentage": 80,
-        "timeTakenSeconds": 37,
-        "completedAt": "2026-11-02T05:51:53.884Z"
-      },
-      {
-        "boothId": "booth-8",
-        "boothNumber": 8,
-        "boothTitle": "Technology Enablers - Booth 1",
-        "topicTitle": "Technology Enablers - Booth 1",
-        "score": 5,
-        "totalQuestions": 5,
-        "percentage": 100,
-        "timeTakenSeconds": 28,
-        "completedAt": "2026-11-02T05:59:05.510Z"
-      },
-      {
-        "boothId": "booth-9",
-        "boothNumber": 9,
-        "boothTitle": "Technology Enablers - Booth 2",
-        "topicTitle": "Technology Enablers - Booth 2",
-        "score": 0,
-        "totalQuestions": 5,
-        "percentage": 0,
-        "timeTakenSeconds": 90,
-        "completedAt": "2026-11-02T05:39:41.861Z"
       }
     ]
   }
