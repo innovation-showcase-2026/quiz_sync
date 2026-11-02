@@ -1,0 +1,632 @@
+[
+  {
+    "id": "9916149078",
+    "name": "Veena Reddypally",
+    "email": "9916149078",
+    "registeredAt": "2026-11-02T04:59:45.746Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 16,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 134,
+    "completionTime": "11:05",
+    "overallAccuracy": 80,
+    "isPrizeEligible": true,
+    "summary": {
+      "isPrizeEligible": true,
+      "totalQuestions": 20,
+      "totalScore": 16,
+      "completionTime": "11:05",
+      "accuracy": 80,
+      "isTargetReached": true,
+      "boothsCompleted": 4,
+      "totalTimeSeconds": 134
+    },
+    "lastUpdated": "2026-11-02T05:35:38.442Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 20,
+        "completedAt": "2026-11-02T05:32:37.202Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 29,
+        "completedAt": "2026-11-02T05:35:38.442Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 42,
+        "completedAt": "2026-11-02T05:00:45.246Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 43,
+        "completedAt": "2026-11-02T05:30:15.469Z"
+      }
+    ]
+  },
+  {
+    "id": "8106795858",
+    "name": "Gautam Jerath",
+    "email": "8106795858",
+    "registeredAt": "2026-11-02T04:54:35.790Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 16,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 240,
+    "completionTime": "11:05",
+    "overallAccuracy": 80,
+    "isPrizeEligible": true,
+    "summary": {
+      "accuracy": 80,
+      "completionTime": "11:05",
+      "isPrizeEligible": true,
+      "totalScore": 16,
+      "totalQuestions": 20,
+      "isTargetReached": true,
+      "totalTimeSeconds": 240,
+      "boothsCompleted": 4
+    },
+    "lastUpdated": "2026-11-02T05:35:08.033Z",
+    "tests": [
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Modernization And Transformation",
+        "topicTitle": "Modernization And Transformation",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T04:56:48.210Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 39,
+        "completedAt": "2026-11-02T05:35:08.033Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 52,
+        "completedAt": "2026-11-02T05:04:06.926Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 59,
+        "completedAt": "2026-11-02T05:12:17.673Z"
+      }
+    ]
+  },
+  {
+    "id": "9000530962",
+    "name": "ANIL MANOHAR MOHAPATRA",
+    "email": "9000530962",
+    "registeredAt": "2026-11-02T05:09:19.672Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 14,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 236,
+    "completionTime": "11:10",
+    "overallAccuracy": 70,
+    "isPrizeEligible": true,
+    "summary": {
+      "isPrizeEligible": true,
+      "totalScore": 14,
+      "totalTimeSeconds": 236,
+      "totalQuestions": 20,
+      "accuracy": 70,
+      "isTargetReached": true,
+      "completionTime": "11:10",
+      "boothsCompleted": 4
+    },
+    "lastUpdated": "2026-11-02T05:40:16.788Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 40,
+        "completedAt": "2026-11-02T05:36:08.935Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:33:49.892Z"
+      },
+      {
+        "boothId": "booth-7",
+        "boothNumber": 7,
+        "boothTitle": "Business Enablers - Booth 2",
+        "topicTitle": "Business Enablers - Booth 2",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 66,
+        "completedAt": "2026-11-02T05:37:51.606Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 40,
+        "completedAt": "2026-11-02T05:40:16.788Z"
+      }
+    ]
+  },
+  {
+    "id": "9959301911",
+    "name": "Priyanka Mandalapu",
+    "email": "9959301911",
+    "registeredAt": "2026-11-02T05:28:06.962Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 14,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 276,
+    "completionTime": "11:12",
+    "overallAccuracy": 70,
+    "isPrizeEligible": true,
+    "summary": {
+      "isPrizeEligible": true,
+      "totalQuestions": 20,
+      "isTargetReached": true,
+      "accuracy": 70,
+      "totalTimeSeconds": 276,
+      "totalScore": 14,
+      "completionTime": "11:12",
+      "boothsCompleted": 4
+    },
+    "lastUpdated": "2026-11-02T05:42:08.897Z",
+    "tests": [
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 67,
+        "completedAt": "2026-11-02T05:39:22.923Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 84,
+        "completedAt": "2026-11-02T05:36:38.323Z"
+      },
+      {
+        "boothId": "booth-7",
+        "boothNumber": 7,
+        "boothTitle": "Business Enablers - Booth 2",
+        "topicTitle": "Business Enablers - Booth 2",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 65,
+        "completedAt": "2026-11-02T05:42:08.897Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 60,
+        "completedAt": "2026-11-02T05:30:35.633Z"
+      }
+    ]
+  },
+  {
+    "id": "7771837468",
+    "name": "Jyoti Singh",
+    "email": "7771837468",
+    "registeredAt": "2026-11-02T05:35:31.739Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 13,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 125,
+    "completionTime": "11:13",
+    "overallAccuracy": 65,
+    "isPrizeEligible": true,
+    "summary": {
+      "isPrizeEligible": true,
+      "totalQuestions": 20,
+      "accuracy": 65,
+      "totalTimeSeconds": 125,
+      "completionTime": "11:13",
+      "isTargetReached": true,
+      "boothsCompleted": 4,
+      "totalScore": 13
+    },
+    "lastUpdated": "2026-11-02T05:43:16.084Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 50,
+        "completedAt": "2026-11-02T05:41:11.511Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 39,
+        "completedAt": "2026-11-02T05:43:16.084Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 18,
+        "completedAt": "2026-11-02T05:38:13.994Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 18,
+        "completedAt": "2026-11-02T05:36:40.402Z"
+      }
+    ]
+  },
+  {
+    "id": "9160439324",
+    "name": "Mohammad Khaleequrrahman",
+    "email": "9160439324",
+    "registeredAt": "2026-11-02T05:07:29.594Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 13,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 275,
+    "completionTime": "11:09",
+    "overallAccuracy": 65,
+    "isPrizeEligible": true,
+    "summary": {
+      "accuracy": 65,
+      "boothsCompleted": 4,
+      "completionTime": "11:09",
+      "isTargetReached": true,
+      "totalTimeSeconds": 275,
+      "totalQuestions": 20,
+      "isPrizeEligible": true,
+      "totalScore": 13
+    },
+    "lastUpdated": "2026-11-02T05:39:17.289Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 65,
+        "completedAt": "2026-11-02T05:12:55.295Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 2,
+        "totalQuestions": 5,
+        "percentage": 40,
+        "timeTakenSeconds": 66,
+        "completedAt": "2026-11-02T05:09:11.820Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 84,
+        "completedAt": "2026-11-02T05:37:24.265Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 60,
+        "completedAt": "2026-11-02T05:39:17.289Z"
+      }
+    ]
+  },
+  {
+    "id": "+917893489889",
+    "name": "Rishikesh Sauderpally",
+    "email": "+917893489889",
+    "registeredAt": "2026-11-02T05:15:08.289Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 12,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 196,
+    "completionTime": "11:11",
+    "overallAccuracy": 60,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalQuestions": 20,
+      "totalScore": 12,
+      "isPrizeEligible": true,
+      "accuracy": 60,
+      "completionTime": "11:11",
+      "boothsCompleted": 4,
+      "totalTimeSeconds": 196,
+      "isTargetReached": true
+    },
+    "lastUpdated": "2026-11-02T05:41:00.274Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:26:17.868Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 36,
+        "completedAt": "2026-11-02T05:36:36.364Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 40,
+        "completedAt": "2026-11-02T05:28:47.297Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 30,
+        "completedAt": "2026-11-02T05:41:00.274Z"
+      }
+    ]
+  },
+  {
+    "id": "9989420154",
+    "name": "Ammannababu Kagitha",
+    "email": "9989420154",
+    "registeredAt": "2026-11-02T04:54:33.369Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 11,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 185,
+    "completionTime": "11:05",
+    "overallAccuracy": 55,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalScore": 11,
+      "boothsCompleted": 4,
+      "totalQuestions": 20,
+      "accuracy": 55,
+      "isTargetReached": true,
+      "totalTimeSeconds": 185,
+      "isPrizeEligible": true,
+      "completionTime": "11:05"
+    },
+    "lastUpdated": "2026-11-02T05:35:36.935Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 39,
+        "completedAt": "2026-11-02T04:58:23.594Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 75,
+        "completedAt": "2026-11-02T05:12:09.215Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 30,
+        "completedAt": "2026-11-02T05:35:36.935Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 41,
+        "completedAt": "2026-11-02T04:56:28.658Z"
+      }
+    ]
+  },
+  {
+    "id": "9177764889",
+    "name": "Yogitha srilekha",
+    "email": "9177764889",
+    "registeredAt": "2026-11-02T05:02:02.468Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 5,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 232,
+    "completionTime": "11:04",
+    "overallAccuracy": 25,
+    "isPrizeEligible": true,
+    "summary": {
+      "accuracy": 25,
+      "isTargetReached": true,
+      "totalQuestions": 20,
+      "totalTimeSeconds": 232,
+      "boothsCompleted": 4,
+      "isPrizeEligible": true,
+      "totalScore": 5,
+      "completionTime": "11:04"
+    },
+    "lastUpdated": "2026-11-02T05:34:56.669Z",
+    "tests": [
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:14:08.487Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 0,
+        "totalQuestions": 5,
+        "percentage": 0,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:03:44.341Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 45,
+        "completedAt": "2026-11-02T05:24:36.271Z"
+      },
+      {
+        "boothId": "booth-9",
+        "boothNumber": 9,
+        "boothTitle": "Technology Enablers - Booth 2",
+        "topicTitle": "Technology Enablers - Booth 2",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 7,
+        "completedAt": "2026-11-02T05:34:56.669Z"
+      }
+    ]
+  }
+]
