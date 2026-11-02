@@ -1,5 +1,215 @@
 [
   {
+    "id": "8886708809",
+    "name": "Trilok",
+    "email": "8886708809",
+    "registeredAt": "2026-11-02T05:01:51.834Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 15,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 260,
+    "completionTime": "10:44",
+    "overallAccuracy": 75,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalScore": 15,
+      "totalQuestions": 20,
+      "boothsCompleted": 4,
+      "isPrizeEligible": true,
+      "completionTime": "10:44",
+      "isTargetReached": true,
+      "totalTimeSeconds": 260,
+      "accuracy": 75
+    },
+    "lastUpdated": "2026-11-02T05:14:55.561Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:05:03.246Z"
+      },
+      {
+        "boothId": "booth-2",
+        "boothNumber": 2,
+        "boothTitle": "Future-Ready Technologies",
+        "topicTitle": "Future-Ready Technologies",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 69,
+        "completedAt": "2026-11-02T05:09:36.406Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 59,
+        "completedAt": "2026-11-02T05:12:58.504Z"
+      },
+      {
+        "boothId": "booth-7",
+        "boothNumber": 7,
+        "boothTitle": "Business Enablers - Booth 2",
+        "topicTitle": "Business Enablers - Booth 2",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 42,
+        "completedAt": "2026-11-02T05:14:55.561Z"
+      }
+    ]
+  },
+  {
+    "id": "9938765803",
+    "name": "Soumya Mohanty",
+    "email": "9938765803",
+    "registeredAt": "2026-11-02T05:15:45.923Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 13,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 175,
+    "completionTime": "10:55",
+    "overallAccuracy": 65,
+    "isPrizeEligible": true,
+    "summary": {
+      "completionTime": "10:55",
+      "isTargetReached": true,
+      "isPrizeEligible": true,
+      "boothsCompleted": 4,
+      "totalQuestions": 20,
+      "accuracy": 65,
+      "totalTimeSeconds": 175,
+      "totalScore": 13
+    },
+    "lastUpdated": "2026-11-02T05:25:12.596Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 31,
+        "completedAt": "2026-11-02T05:19:10.708Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 39,
+        "completedAt": "2026-11-02T05:23:54.785Z"
+      },
+      {
+        "boothId": "booth-7",
+        "boothNumber": 7,
+        "boothTitle": "Business Enablers - Booth 2",
+        "topicTitle": "Business Enablers - Booth 2",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:17:54.938Z"
+      },
+      {
+        "boothId": "booth-8",
+        "boothNumber": 8,
+        "boothTitle": "Technology Enablers - Booth 1",
+        "topicTitle": "Technology Enablers - Booth 1",
+        "score": 4,
+        "totalQuestions": 5,
+        "percentage": 80,
+        "timeTakenSeconds": 15,
+        "completedAt": "2026-11-02T05:25:12.596Z"
+      }
+    ]
+  },
+  {
+    "id": "7350240150",
+    "name": "Sudershan Bhide",
+    "email": "7350240150",
+    "registeredAt": "2026-11-02T04:56:46.528Z",
+    "totalTestsAppeared": 4,
+    "totalScore": 12,
+    "totalQuestions": 20,
+    "totalTimeSeconds": 281,
+    "completionTime": "10:47",
+    "overallAccuracy": 60,
+    "isPrizeEligible": true,
+    "summary": {
+      "totalQuestions": 20,
+      "completionTime": "10:47",
+      "totalTimeSeconds": 281,
+      "boothsCompleted": 4,
+      "isPrizeEligible": true,
+      "accuracy": 60,
+      "totalScore": 12,
+      "isTargetReached": true
+    },
+    "lastUpdated": "2026-11-02T05:17:35.934Z",
+    "tests": [
+      {
+        "boothId": "booth-1",
+        "boothNumber": 1,
+        "boothTitle": "Data / Security",
+        "topicTitle": "Data / Security",
+        "score": 1,
+        "totalQuestions": 5,
+        "percentage": 20,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T05:03:01.613Z"
+      },
+      {
+        "boothId": "booth-3",
+        "boothNumber": 3,
+        "boothTitle": "Engineering Efficiency & Enhancing Productivity",
+        "topicTitle": "Engineering Efficiency & Enhancing Productivity",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 90,
+        "completedAt": "2026-11-02T04:58:36.174Z"
+      },
+      {
+        "boothId": "booth-4",
+        "boothNumber": 4,
+        "boothTitle": "Modernization And Transformation",
+        "topicTitle": "Modernization And Transformation",
+        "score": 3,
+        "totalQuestions": 5,
+        "percentage": 60,
+        "timeTakenSeconds": 32,
+        "completedAt": "2026-11-02T05:17:35.934Z"
+      },
+      {
+        "boothId": "booth-5",
+        "boothNumber": 5,
+        "boothTitle": "AI Enablements",
+        "topicTitle": "AI Enablements",
+        "score": 5,
+        "totalQuestions": 5,
+        "percentage": 100,
+        "timeTakenSeconds": 69,
+        "completedAt": "2026-11-02T05:15:02.231Z"
+      }
+    ]
+  },
+  {
     "id": "9949155221",
     "name": "Padmavathi Ranganatham",
     "email": "9949155221",
